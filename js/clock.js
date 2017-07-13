@@ -12,7 +12,9 @@ $(document).ready(function() {
   var hourHand = document.getElementsByClassName("hourHand");
 
   var rotateSec = (seconds/60 * 360) + 90;
-  secHand[0].style.transform = `rotate(${rotateSec}deg)`;
+  $(".secondHand").css("transform", `rotate(${rotateSec}deg)`);
+  // $(".secondHand").css("transition", "all: 0.5");
+
   var rotateMin = (minutes/60 * 360) + 90;
   minHand[0].style.transform = `rotate(${rotateMin}deg)`;
   var rotateHour = (hour/24 * 360) - 90;

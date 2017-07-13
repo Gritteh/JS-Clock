@@ -117,12 +117,9 @@ body {
 	top: 200px;
 	left:10px;
 	z-index: 5;
-<<<<<<< HEAD
 	border: 1px solid white;
-=======
-	border: 2px solid white;
->>>>>>> 5f52a707271205ea4e3c3d0d120013c44a4ad9ac
 	box-sizing: border-box;
+	transition: all 0.05s;
 
 }
 .middle {
@@ -140,17 +137,13 @@ body {
 	left: 190px;
 	margin: 0 auto;
 	z-index: 5;
-<<<<<<< HEAD
 	border: 1px solid white;
-=======
-	border: 2px solid white;
->>>>>>> 5f52a707271205ea4e3c3d0d120013c44a4ad9ac
 	box-sizing: border-box;
 }
 .secondHand {
 	height: 5px;
 	margin-top: 2.5px;
-	transition: all 0.01s;
+	transition: all 0.05s;
 	/*transform: rotate(90deg);*/
 }
 .hourHand {
