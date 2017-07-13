@@ -45,12 +45,14 @@ table {
 /* CSS RESET END */
 
 body {
-	width: 100%;
+	width: 500px; max-width: 500px;
 	background-image: url("../wood-back.jpg");
+	background-size: 500px;
 }
 .clock {
-  width: 90%
-
+  width: 90%;
+	transform: scale(2);
+	transform: translatex(250px) scale(1.3);
   padding-top: 100px;
 
 }
