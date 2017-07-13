@@ -43,11 +43,15 @@ table {
 	border-spacing: 0;
 }
 /* CSS RESET END */
+body {
+	width: 100%;
+	background-image: url("http://cdn.wallpapersafari.com/28/21/wcoMPQ.jpg");
+}
 .clock {
   width: 700px;
   height: 600px;
   padding-top: 100px;
-  background-image: url("http://cdn.wallpapersafari.com/28/21/wcoMPQ.jpg");
+
 }
 .circle {
   margin: 0px auto;
@@ -91,7 +95,7 @@ table {
 .secondHand {
 	height: 5px;
 	margin-top: 2.5px;
-	transition: all 0.05s;
+	transition: all 0.01s;
 }
 .hourHand {
 	margin-left: 50px;
